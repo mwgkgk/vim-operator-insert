@@ -1,17 +1,17 @@
-# vim-operator-insert
+## vim-operator-insert
 
   Enter insert mode before the text specified by a motion. Requires
   [vim-operator-user](https://github.com/kana/vim-operator-user).
 
   See also: [vim-operator-append](https://github.com/mwgkgk/vim-operator-append)
 
-## usage
+### Usage
 
   The plugin does not define any mappings. Define one like this:
 
     map <Space>i <Plug>(operator-insert)
 
-## examples
+### Examples
 
   `<Space>ii"` to insert inside double quotes.
   `<Space>iit` to insert inside a tag.
