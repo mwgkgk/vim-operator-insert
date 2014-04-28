@@ -13,6 +13,6 @@
 
 ### Examples
 
-  `<Space>ii"` to insert inside double quotes.
-  `<Space>iit` to insert inside a tag.
-  `<Space>iat` to insert before an ambient tag.
+ - `<Space>ii"` to insert inside double quotes.
+ - `<Space>iit` to insert inside a tag.
+ - `<Space>iat` to insert before an ambient tag.
