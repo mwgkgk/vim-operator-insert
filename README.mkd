@@ -1,6 +1,6 @@
 # vim-operator-insert
 
-  Enter insert mode after the text specified by the motion.
+  Enter insert mode before the text specified by the motion.
 
   See also: [vim-operator-append](https://github.com/mwgkgk/vim-operator-append)
 
@@ -8,13 +8,13 @@
 
   The plugin does not define any mappings. Define one like this:
 
-    map <Space>a <Plug>(operator-insert)
+    map <Space>i <Plug>(operator-insert)
 
 ## examples
 
   `<Space>ai"` to insert inside double quotes.
   `<Space>ait` to insert inside a tag.
-  `<Space>aat` to insert after an ambient tag.
+  `<Space>aat` to insert before an ambient tag.
 
 ## requires
 
