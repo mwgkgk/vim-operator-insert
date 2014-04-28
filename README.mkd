@@ -1,6 +1,7 @@
 # vim-operator-insert
 
-  Enter insert mode before the text specified by a motion.
+  Enter insert mode before the text specified by a motion. Requires
+  [vim-operator-user](https://github.com/kana/vim-operator-user).
 
   See also: [vim-operator-append](https://github.com/mwgkgk/vim-operator-append)
 
@@ -12,11 +13,6 @@
 
 ## examples
 
-  `<Space>ai"` to insert inside double quotes.
-  `<Space>ait` to insert inside a tag.
-  `<Space>aat` to insert before an ambient tag.
-
-## requires
-
-  [vim-operator-user](https://github.com/kana/vim-operator-user)
-
+  `<Space>ii"` to insert inside double quotes.
+  `<Space>iit` to insert inside a tag.
+  `<Space>iat` to insert before an ambient tag.
